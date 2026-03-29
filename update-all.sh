@@ -2,7 +2,7 @@
 # Updates the claude-rules submodule in all downstream repos.
 # Run from anywhere. Optionally pass --push to also push each repo.
 
-set -euo pipefail
+set -uo pipefail
 
 PROJECTS_DIR="${PROJECTS_DIR:-$HOME/projects}"
 PUSH=false
