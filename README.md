@@ -10,12 +10,15 @@ common/              Universal coding standards
   rust-quality.md      Rust-specific quality rules (clippy, traits, imports)
   dependency-management.md  Cargo dependency rules (no cross-repo path deps)
   large-refactor.md    Strategy for large file rewrites
+  ci-verification.md   CI checks, phased launches, circular dependency avoidance
+  spanner-schemas.md   Spanner schema design patterns (keys, interleaving, foreign keys)
 api/                 API design standards
   aipdev.md            Google AIP standards (comprehensive)
   docsguide.md         Documentation format, freshness rules, MANIFEST.md
 workflows/           Agent workflow patterns
   beu-workflow.md      beu session memory CLI reference
   agent-driven-learning.md  Structured agent learning pipeline
+  session-management.md  Claude session tracking across conversations
 ```
 
 ## Usage
