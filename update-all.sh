@@ -14,6 +14,7 @@ fi
 REPOS=(
   protobuf-rs
   flatbuffers-rs
+  codegen-infra
   fbsviewer
   fbsviewer-lib
   protoviewer-lib
@@ -34,6 +35,7 @@ REPOS=(
   myissuetracker
   heydb
   dragb
+  openworkspace
 )
 
 updated=0
