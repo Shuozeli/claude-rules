@@ -36,6 +36,8 @@ REPOS=(
   heydb
   dragb
   openworkspace
+  ai-sdk
+  yt-dlp-rs
 )
 
 updated=0
