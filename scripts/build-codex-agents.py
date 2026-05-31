@@ -71,7 +71,7 @@ SUMMARIES = {
         "Avoid shallow summaries, human-driven sequencing, excessive task granularity, and marking work done without teaching a distilled lesson.",
     ],
     "workflows/beu-workflow.md": [
-        "When a project has `.beu/`, use `beu resume` at start and `beu pause \"checkpoint\"` before stopping.",
+        "When a project has beu memory configured, use the resume command at start and the pause command with a checkpoint before stopping.",
         "Use `beu task`, `state`, `debug`, `artifact`, `journal`, `progress`, `events`, `health`, and `check` to track work, decisions, blockers, investigations, deliverables, and compliance.",
         "Use `-p <project>` for project scoping inside shared `.beu` databases.",
     ],
